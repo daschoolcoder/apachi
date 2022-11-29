@@ -1,6 +1,2 @@
-# apachi
- kanda like pc opens a tab for the ui acan be used as a js console and more
-
-# feachers
-
-<h1> a </h1>
+<h1> Apachi </h1>
+<p> apachi is still in beta V1.1 so dont complain if nothing works :/ sry for bad spelling ;lol
