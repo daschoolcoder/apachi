@@ -14,7 +14,7 @@ function calc() {
 <br>
 <button id="enter"> Enter  </button> <button id="c"> Clear </button> </div>
 <br>
-<button id="r" style="background-color:rgb(244,4,4);"> return </button>
+<button id="r"> return </button>
 `;
   document.body.appendChild(e);
   var Be = document.getElementById("enter"),
@@ -45,7 +45,7 @@ function calc() {
     r = document.getElementById("r");
   r.onclick=function () {document.body.removeChild(e);
         req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/daschoolcoder/apachi/main/apachi.js'); req.onload = function() { eval(this.responseText)}; req.send(); }
-
+r.style="background-color:rgb(244,4,4);";
 
   var xc = false,
     yc = false;
