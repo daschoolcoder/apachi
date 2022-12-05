@@ -43,9 +43,7 @@ function calc() {
     sc = document.getElementById("sc"),
     r = document.getElementById("r");
   r.onclick=function () {document.body.removeChild(e);
-         req = new XMLHttpRequest()
-                        req.open('GET','https://raw.githubusercontent.com/daschoolcoder/apachi/main/apachi.js')
-                        req.onload = function() {eval(this.responceText);} }
+        req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/daschoolcoder/apachi/main/apachi.js'); req.onload = function() { eval(this.responseText)}; req.send(); }
 
 
   var xc = false,
