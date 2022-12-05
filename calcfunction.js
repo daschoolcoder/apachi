@@ -13,7 +13,8 @@ function calc() {
 <button id="0"> 0 </button>  <button id="("> ( </button> <button id=")"> ) </button> <button id="x"> x </button> <button id="y">y </button> <button id="sc"> ; </button>
 <br>
 <button id="enter"> Enter  </button> <button id="c"> Clear </button> </div>
-<button id="r"> return </button>
+<br>
+<button id="r" style="background-color:rgb(244,4,4);"> return </button>
 `;
   document.body.appendChild(e);
   var Be = document.getElementById("enter"),
