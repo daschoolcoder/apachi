@@ -13,6 +13,7 @@ function calc() {
 <button id="0"> 0 </button>  <button id="("> ( </button> <button id=")"> ) </button> <button id="x"> x </button> <button id="y">y </button> <button id="sc"> ; </button>
 <br>
 <button id="enter"> Enter  </button> <button id="c"> Clear </button> </div>
+<button id="r"> return </button>
 `;
   document.body.appendChild(e);
   var Be = document.getElementById("enter"),
@@ -39,7 +40,12 @@ function calc() {
     pr2 = document.getElementById(")"),
     bX = document.getElementById("x"),
     bY = document.getElementById("y"),
-    sc = document.getElementById("sc");
+    sc = document.getElementById("sc"),
+    r = document.getElementById("r");
+  r.onclick=function () {document.body.removeChild(e);
+         req = new XMLHttpRequest()
+                        req.open('GET','https://raw.githubusercontent.com/daschoolcoder/apachi/main/apachi.js')
+                        req.onload = function() {eval(this.responceText);} }
 
 
   var xc = false,
