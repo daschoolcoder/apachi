@@ -1,4 +1,3 @@
-
 function Apachi_Open() {
 
 
@@ -72,12 +71,12 @@ o.style= "background-color:rgb(0,255,0)";
       
  
       
-            <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://script.google.com/macros/s/AKfycby71YrSWe6WSzadQWzs7Rmi3Fsfh8fonujqB46_cCq1Ffn2RyU/exec"; iframe.style=" width:65%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
+            <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/2048/index.html"; iframe.style=" width:65%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
              d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
              d.innerHTML="X";
              d.style="background-color:red";
              document.body.appendChild(d);
-                '> tunnel rush (broken)</button>
+                '> 2048</button>
                 
                 
                 <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://landgreen.github.io/sidescroller/"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
@@ -124,6 +123,14 @@ o.style= "background-color:rgb(0,255,0)";
                 '> Chat GPT </button> 
                 
                 
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com"; iframe.style=" width:100%; height:100%;";document.body.appendChild(iframe); var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Web proxy </button>
+                
+                
                 
                 
         <button style='background-color:rgb(111,111,111);' onclick='var cal = prompt("Enter equation");alert(eval(cal));'> Calculator </button>
@@ -152,4 +159,6 @@ o.style= "background-color:rgb(0,255,0)";
 }
  
  Apachi_Open();
+        
+          
  
