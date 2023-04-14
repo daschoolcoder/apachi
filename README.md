@@ -4,7 +4,13 @@
   <h1> how to use </h1>
 <p> apachi will only launch on certan websites for example aires will open apachi and mabybe others i dont know about yet
   will run on js fiddle and other code editors
-  <h1> version 1.4</h1>
+<h1> version 1.5</h1>
+  <p> - added more games
+      - added fixed more games
+      - brought back tunnle rush :)
+  
+
+<h1> version 1.4</h1>
   <p> - added Ultra Violet to apachi
       - added chat GPT
       - fixed some games
