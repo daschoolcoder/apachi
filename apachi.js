@@ -1,3 +1,5 @@
+
+
 function Apachi_Open() {
 
 
@@ -9,7 +11,7 @@ function Apachi_Open() {
 
  <div style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1> Apachi V1.3.0 Beta </h1> </center> 
+ <center>  <h1> Apachi V1.5.4 Alpha </h1> </center> 
          </div> 
    
    
@@ -37,12 +39,12 @@ o.style= "background-color:rgb(0,255,0)";
                '> enter </button>  </center> 
         
         <center>
-        <div style='padding:150px;'> <button style='background-color:rgb(111,111,111)' onclick='var iframe = document.createElement("iframe"); iframe.src="https://retro-bowl.greenlio.repl.co"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
+        <div style='padding:150px;'> <button style='background-color:rgb(111,111,111)' onclick='var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/retro-bowl/index.html"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
              d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
              d.innerHTML="X";
              d.style="background-color:red";
              document.body.appendChild(d);
-                '>retro bowl (broken) </button>
+                '>retro bowl</button>
         
         
         <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/666344820848380631/baldi.html"; iframe.style=" width:102%; height:100%";document.body.appendChild(iframe); var d = document.createElement("button");
@@ -93,6 +95,45 @@ o.style= "background-color:rgb(0,255,0)";
              d.style="background-color:red";
              document.body.appendChild(d);
                 '> Low's adventure </button>  
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/among-us/"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Amongus </button> 
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/craftmine/index.html"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Craft mine </button> 
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/tunnel-rush/index.html"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> tunnle rush </button> 
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/flappy-bird/index.html"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Flappy bird </button> 
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/basketball-stars/index.html"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Basketball stars </button> 
                <br>
                <br>
                <br>
@@ -159,6 +200,4 @@ o.style= "background-color:rgb(0,255,0)";
 }
  
  Apachi_Open();
-        
-          
  
