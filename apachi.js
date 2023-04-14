@@ -11,7 +11,7 @@ function Apachi_Open() {
 
  <div style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1> Apachi V1.5.5 Alpha </h1> </center> 
+ <center>  <h1> Apachi V1.5.6 Alpha </h1> </center> 
          </div> 
    
    
@@ -133,7 +133,16 @@ o.style= "background-color:rgb(0,255,0)";
              d.innerHTML="X";
              d.style="background-color:red";
              document.body.appendChild(d);
-                '> Basketball stars </button> 
+                '> Basketball stars </button>
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://reinsmidt.com/"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Fullscreen mario </button>
+                
                <br>
                <br>
                <br>
