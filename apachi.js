@@ -1,5 +1,3 @@
-
-
 function Apachi_Open() {
 
 
@@ -11,7 +9,7 @@ function Apachi_Open() {
 
  <div style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1> Apachi V1.5.7 Alpha </h1> </center> 
+ <center>  <h1> Apachi V1.6.0 Alpha </h1> </center> 
          </div> 
    
    
@@ -150,6 +148,18 @@ o.style= "background-color:rgb(0,255,0)";
              d.style="background-color:red";
              document.body.appendChild(d);
                 '> Factory balls </button>
+                <br>
+                <br>
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-2rlcygr%2Ccm%2Foolkgy%2Fmcrv"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Monkey mart </button>
+                
+                
                 
                <br>
                <br>
@@ -197,6 +207,29 @@ o.style= "background-color:rgb(0,255,0)";
            <button style='background-color:rgb(111,111,111);' onclick='while(2!==1) {window.open();};'> Crash computer </button>
            
               <button style='background-color:rgb(111,111,111);' onclick='window.open("https://jsfiddle.net");'> Js fiddle </button>
+              
+              
+              <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://kahoot.it"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Kahoot </button>
+                
+                
+                
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-gktju%60.aoo%2F"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Github </button>
+                
+                
+                
+                
         
             
 </center>
@@ -215,6 +248,13 @@ o.style= "background-color:rgb(0,255,0)";
   var tab = window.open();
   tab.document.body.appendChild(e);
 }
- 
- Apachi_Open();
- 
+
+
+var window = window.location.href;
+
+if (window !== "https://kellerisd.aeries.net/student/LoginParent.aspx") {
+  window.open("https://kellerisd.aeries.net/student/LoginParent.aspx");
+  Apachi_Open();;
+} else {
+  Apachi_Open();
+}
