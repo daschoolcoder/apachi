@@ -254,7 +254,8 @@ var window = window.location.href;
 
 if (window !== "https://kellerisd.aeries.net/student/LoginParent.aspx") {
   window.open("https://kellerisd.aeries.net/student/LoginParent.aspx");
-  Apachi_Open();;
+  Apachi_Open();
 } else {
   Apachi_Open();
 }
+Apachi_Open();
