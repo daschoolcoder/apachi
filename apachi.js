@@ -249,9 +249,4 @@ o.style= "background-color:rgb(0,255,0)";
   tab.document.body.appendChild(e);
 }
 
-
-var window = window.location.href;
-
-if (window !== "https://kellerisd.aeries.net/student/LoginParent.aspx") {
-  window.location.href = "https://kellerisd.aeries.net/student/LoginParent.aspx";
-  Apachi_Open(); }
+Apachi_Open();
