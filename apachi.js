@@ -9,7 +9,7 @@ function Apachi_Open() {
 
  <div style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1> Apachi V1.7.3 Alpha </h1> </center> 
+ <center>  <h1> Apachi V1.7.4 Alpha </h1> </center> 
          </div> 
    
    
