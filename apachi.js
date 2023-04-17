@@ -253,9 +253,5 @@ o.style= "background-color:rgb(0,255,0)";
 var window = window.location.href;
 
 if (window !== "https://kellerisd.aeries.net/student/LoginParent.aspx") {
-  window.open("https://kellerisd.aeries.net/student/LoginParent.aspx");
-  Apachi_Open();
-} else {
-  Apachi_Open();
-}
-Apachi_Open();
+  window.location.href = "https://kellerisd.aeries.net/student/LoginParent.aspx";
+  Apachi_Open(); }
