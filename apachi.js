@@ -9,7 +9,7 @@ function Apachi_Open() {
 
  <div style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1> Apachi V1.6.0 Alpha </h1> </center> 
+ <center>  <h1> Apachi V1.7.3 Alpha </h1> </center> 
          </div> 
    
    
@@ -150,10 +150,14 @@ o.style= "background-color:rgb(0,255,0)";
                 '> Factory balls </button>
                 <br>
                 <br>
-                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://3ghost-deploy-seven.vercel.app/projects/DogeMiner/index.html"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Dodge miner </button>
                 
                
-                
                 
                 
                <br>
@@ -244,4 +248,6 @@ o.style= "background-color:rgb(0,255,0)";
   tab.document.body.appendChild(e);
 }
 
-Apachi_Open();
+
+
+  Apachi_Open();
