@@ -284,8 +284,6 @@ o.style= "background-color:rgb(0,255,0)";
          </div>
        <br>
        <br>
-       <br>
-       <br>
        <p1> to report issues please click github and on the search "daschoolcoder apachi" click issues and report a bug
     
 
