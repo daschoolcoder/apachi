@@ -7,9 +7,9 @@ function Apachi_Open() {
   e.innerHTML = `
 
 
- <div style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
+ <div id="theme"style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1> Apachi V1.7.4 Alpha </h1> </center> 
+ <center>  <h1> Apachi V1.7.5 Alpha </h1> </center> 
          </div> 
    
    
@@ -190,6 +190,16 @@ o.style= "background-color:rgb(0,255,0)";
              document.body.appendChild(d);
                 '> Monkey mart </button>
                 
+                
+                 <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-wuw%2Ccmonmctjgcmgs%2Ccmm-"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> coolmath </button>
+                
+                
+                
                <br>
                <br>
                <br>
@@ -229,6 +239,15 @@ o.style= "background-color:rgb(0,255,0)";
                 
                 
                 
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://t3ck9.sse.codesandbox.io/"; iframe.style=" width:100%; height:100%;";document.body.appendChild(iframe); var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Alloy proxy </button>
+                
+                
+                
                 
         <button style='background-color:rgb(111,111,111);' onclick='var cal = prompt("Enter equation");alert(eval(cal));'> Calculator </button>
         
@@ -255,10 +274,6 @@ o.style= "background-color:rgb(0,255,0)";
              d.style="background-color:red";
              document.body.appendChild(d);
                 '> Github </button>
-                
-                
-                
-                
         
             
 </center>
@@ -267,17 +282,19 @@ o.style= "background-color:rgb(0,255,0)";
          <title> Google Classroom</title>
          
          </div>
-       
+       <br>
+       <br>
+       <br>
+       <br>
+       <p1> to report issues please click github and on the search "daschoolcoder apachi" click issues and report a bug
     
 
  `;
-
-
-
   var tab = window.open();
   tab.document.body.appendChild(e);
+
 }
 
 
 
-  Apachi_Open();
+Apachi_Open();
