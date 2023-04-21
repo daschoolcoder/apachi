@@ -295,7 +295,5 @@ o.style= "background-color:rgb(0,255,0)";
   tab.document.body.appendChild(e);
 
 }
-var code = 1107
-var pro = prompt("due to recenct leaks apachi now requires a code :( if you do this you know who you are and i advise you to stop");
-if(pro == code){
-Apachi_Open();}
+
+Apachi_Open();
