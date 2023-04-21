@@ -199,7 +199,12 @@ o.style= "background-color:rgb(0,255,0)";
                 '> coolmath </button>
                 
                 
-                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-cnaqskc%2Cmkngcpadt%2Cngt-"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Mincraft clasic</button>
                <br>
                <br>
                <br>
@@ -282,15 +287,15 @@ o.style= "background-color:rgb(0,255,0)";
          <title> Google Classroom</title>
          
          </div>
-       <br>
-
+       
+    
 
  `;
   var tab = window.open();
   tab.document.body.appendChild(e);
 
 }
-
-
-
-Apachi_Open();
+var code = 1107
+var pro = prompt("due to recenct leaks apachi now requires a code :( if you do this you know who you are and i advise you to stop");
+if(pro == code){
+Apachi_Open();}
