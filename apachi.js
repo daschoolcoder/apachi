@@ -9,7 +9,7 @@ function Apachi_Open() {
 
  <div id="theme"style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1> Apachi V1.8.3 Alpha </h1> </center> 
+ <center>  <h1> Apachi V1.8.4 Alpha </h1> </center> 
          </div> 
    
    
@@ -300,7 +300,12 @@ o.style= "background-color:rgb(0,255,0)";
         
            <button style='background-color:rgb(111,111,111);' onclick='while(2!==1) {window.open();};'> Crash computer </button>
            
-              <button style='background-color:rgb(111,111,111);' onclick='window.open("https://jsfiddle.net");'> Js fiddle </button>
+          <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-jqfkdflg.lev%2F"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Js fiddle</button>
               
               
               <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://kahoot.it"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
@@ -329,7 +334,39 @@ o.style= "background-color:rgb(0,255,0)";
              document.body.appendChild(d);
                 '> Google </button>
         
-            
+            <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://codesandbox.io/"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Code sandbox</button>
+                
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-dmcq.eomgne%2Ccmm-"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Google docs</button>
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-dmcq.eomgne%2Ccmm-ppeqeltctkol%2Fw%2F2%2F"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Google slides</button>
+                
+                <br>
+                <br>
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-cnaqspomm%2Cgmoelg.aoo%2Fw%2F3%2Fj"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Google classroom</button>
 </center>
          </div>
          
