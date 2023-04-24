@@ -1,15 +1,6 @@
-function Apachi_Open() {
-
-
-
-  var e = document.createElement('div');
-
-  e.innerHTML = `
-
-
- <div id="theme"style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
+<div id="theme"style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1> Apachi V1.7.5 Alpha </h1> </center> 
+ <center>  <h1> Apachi V1.8.1 Alpha </h1> </center> 
          </div> 
    
    
@@ -205,6 +196,30 @@ o.style= "background-color:rgb(0,255,0)";
              d.style="background-color:red";
              document.body.appendChild(d);
                 '> Mincraft clasic</button>
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-bktnide%2Collkng%2F"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Bitlife </button>
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://www.mathplayground.com/pg_x_trench_run.html"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> X-trench run</button>
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-wuw%2Ccjeqs%2Ccmm-"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Chess</button>
                <br>
                <br>
                <br>
@@ -279,6 +294,14 @@ o.style= "background-color:rgb(0,255,0)";
              d.style="background-color:red";
              document.body.appendChild(d);
                 '> Github </button>
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-wuw%2Cgmoelg.aoo%2F%3Dgus%5Drf%3Dqsn"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Google </button>
         
             
 </center>
@@ -295,5 +318,7 @@ o.style= "background-color:rgb(0,255,0)";
   tab.document.body.appendChild(e);
 
 }
+
+
 
 Apachi_Open();
