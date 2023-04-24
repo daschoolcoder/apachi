@@ -1,4 +1,13 @@
-<div id="theme"style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
+function Apachi_Open() {
+
+
+
+  var e = document.createElement('div');
+
+  e.innerHTML = `
+
+
+ <div id="theme"style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
  <center>  <h1> Apachi V1.8.1 Alpha </h1> </center> 
          </div> 
