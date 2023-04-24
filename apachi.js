@@ -9,7 +9,7 @@ function Apachi_Open() {
 
  <div id="theme"style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1> Apachi V1.8.1 Alpha </h1> </center> 
+ <center>  <h1> Apachi V1.8.3 Alpha </h1> </center> 
          </div> 
    
    
@@ -229,6 +229,23 @@ o.style= "background-color:rgb(0,255,0)";
              d.style="background-color:red";
              document.body.appendChild(d);
                 '> Chess</button>
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-jaw%3A7%2Cgktju%60.ko-c0-qals%2Ffkgjt-"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Sans fight</button>
+                
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://doodle-pile.gitlab.io/unfair-undyne/v0.99/"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Undine</button>
                <br>
                <br>
                <br>
