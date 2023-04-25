@@ -1,5 +1,5 @@
 <h1> Apachi </h1>
-<p> apachi is still in beta V1.1 so dont complain if nothing works :/ sry for bad spelling lol
+<p> apachi is OUT OF Beta witch means this is the full version i will be updating it constantly so dont worry if a game is blocked or a button does not work:/ sry for bad spelling lol
   
   <h1> how to use </h1>
 <p> apachi will only launch on certan websites for example aires will open apachi and mabybe others i dont know about yet
