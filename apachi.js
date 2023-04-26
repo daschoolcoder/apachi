@@ -9,7 +9,7 @@ function Apachi_Open() {
 
  <div id="theme"style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1 id="txt"> Apachi V1.9.1 </h1> </center> 
+ <center>  <h1 id="txt"> Apachi V1.8.4 </h1> </center> 
          </div> 
    
    
@@ -386,21 +386,22 @@ o.style= "background-color:rgb(0,255,0)";
                 
                 
                 <button style='background-color:rgb(111,111,111);' onclick='var t = document.getElementById("theme");
+        
                 var x = document.getElementById("txt");
                 
                
                 t.style = "width:100%; height:100%; background-color:black";
-                
+             
                 x.style = "color:white";'> dark mode</button>
                 
                 
                 <button style='background-color:rgb(111,111,111);' onclick='var t = document.getElementById("theme");
-               
+        
                 var x = document.getElementById("txt");
                 
                
                 t.style = "width:100%; height:100%; background-color:red";
-               
+              
                 x.style = "color:black";'> light mode</button>
                 
                 
