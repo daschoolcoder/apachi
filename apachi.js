@@ -9,7 +9,7 @@ function Apachi_Open() {
 
  <div id="theme"style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1> Apachi V1.8.4 </h1> </center> 
+ <center>  <h1 id="txt"> Apachi V1.8.4 </h1> </center> 
          </div> 
    
    
