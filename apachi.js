@@ -9,7 +9,7 @@ function Apachi_Open() {
 
  <div id="theme"style='background-color:rgb(255,0,0); width:100%;height:100%; z-index:0 '>
   <div>
- <center>  <h1> Apachi V1.8.4 Alpha </h1> </center> 
+ <center>  <h1> Apachi V1.8.4 </h1> </center> 
          </div> 
    
    
@@ -246,6 +246,15 @@ o.style= "background-color:rgb(0,255,0)";
              d.style="background-color:red";
              document.body.appendChild(d);
                 '> Undine</button>
+                
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-gcmgfmree%2Ccmm-el-WS-lktvlggcmgs-rksg-wp-"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> rise up</button>
                <br>
                <br>
                <br>
@@ -367,6 +376,41 @@ o.style= "background-color:rgb(0,255,0)";
              d.style="background-color:red";
              document.body.appendChild(d);
                 '> Google classroom</button>
+                
+                
+                  <button style='background-color:rgb(111,111,111);' onclick='var t = document.getElementById("theme");
+                var color = prompt("type in a color you want NO SPACES");
+                if (color == "" || color == null) {}
+                else {
+                t.style = "width:100%; height:100%; background-color:"+color;}'> Change theme</button>
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var t = document.getElementById("theme");
+                var p = document.getElementById("pro");
+                var x = document.getElementById("txt");
+                
+               
+                t.style = "width:100%; height:100%; background-color:black";
+                p.style = "color:cyan";
+                x.style = "color:white";'> dark mode</button>
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var t = document.getElementById("theme");
+                var p = document.getElementById("pro");
+                var x = document.getElementById("txt");
+                
+               
+                t.style = "width:100%; height:100%; background-color:red";
+                p.style = "color:yellow";
+                x.style = "color:black";'> light mode</button>
+                
+                
+                <button style='background-color:rgb(111,111,111);' onclick='var iframe = document.createElement("iframe"); iframe.src="https://ihsprogrammingclub.herokuapp.com/application/v2/hvtrs8%2F-tjipt%7Bdmlnap.ue%60sktg%2F"; iframe.style=" width:100%; height:100%";document.body.appendChild(iframe);var d = document.createElement("button");
+             d.onclick= function () {document.body.removeChild(iframe);document.body.removeChild(d) ;};
+             d.innerHTML="X";
+             d.style="background-color:red";
+             document.body.appendChild(d);
+                '> Sounds</button>
 </center>
          </div>
          
